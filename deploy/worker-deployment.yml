@@ -11,7 +11,7 @@ spec:
     matchLabels:
       name: worker-app-pod
       app: demo-voting
-  templates:
+  template:
     metadata: 
       name: worker-app-pod
       labels:
